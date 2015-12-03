@@ -315,7 +315,6 @@
       <div class="row">
         <div class="col-md-12">
           <ul id='seeya'>
-            <!-- TODO: Change these to NFL.com images -->
             <li><img src="http://i.nflcdn.com/static/site/7.2/img/teams/DET/DET_logo-80x90.gif"><h3>Detroit LIONS</h3> <h6>(wk 7)</h6></li>
             <li><img src="http://i.nflcdn.com/static/site/7.2/img/teams/BAL/BAL_logo-80x90.gif"><h3>Baltimore RAVENS</h3> <h6>(wk 7)</h6></li>
             <li><img src="http://i.nflcdn.com/static/site/7.2/img/teams/JAC/JAC_logo-80x90.gif"><h4>Jacksonville JAGUARS</h4> <h6>(wk 7, uncrossed off wk 12)</h6></li>
@@ -356,7 +355,7 @@
       setTimeout(function(){
         StrikeItem(element);
       }, time);
-      time += 2000;
+      time += 1000;
     });
   });
 
@@ -372,7 +371,7 @@
       $(domElement).html("<strike>" + sToStrike + "</strike>" + sAfter);
       window.setTimeout(function() {
           StrikeThrough(index + 1, domElement, _text);
-      }, 100);
+      }, 75);
   }
   </script>
   </body>

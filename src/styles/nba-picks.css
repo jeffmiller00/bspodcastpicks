@@ -1,0 +1,18 @@
+#picks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 1rem;
+}
+
+.over {
+  color: #f5f1ed;
+  background-color: #429e62;
+  font-weight: bold;
+}
+
+.under {
+  color: #f5f1ed;
+  background-color: #fe4a49;
+  font-weight: bold;
+}

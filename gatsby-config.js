@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `2019 NBA Over / Under Picks`,
+    description: `Tracking Bill Simmons, Ryen Russillo and Joe House's NBA Over/Under Picks.`,
+    author: `@couchchamp`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

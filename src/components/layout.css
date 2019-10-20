@@ -1,3 +1,12 @@
+/*
+Colors:
+Black:  252323
+White:  f5f1ed
+Blue:   17408B
+Green:  429e62
+Orange: fe4a49
+*/
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7,6 +16,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F1ED;
 }
 article,
 aside,
@@ -22,6 +32,12 @@ section,
 summary {
   display: block;
 }
+
+header {
+  background-color: #17408B;
+  margin-bottom: 1.45rem;
+}
+
 audio,
 canvas,
 progress,

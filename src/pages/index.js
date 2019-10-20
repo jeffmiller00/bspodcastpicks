@@ -6,7 +6,9 @@ import { css } from "../styles/nba-picks.css"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+
+export default ({ data }) => {
+  return (
   <Layout>
     <SEO title="2019 NBA Over/Under" />
     <table>

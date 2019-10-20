@@ -19,15 +19,32 @@ const IndexPage = () => (
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td><img src="http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/MIL.svg" /></td>
-          <td class="over">Over</td>
-          <td class="under">Under</td>
-          <td class="over">Over</td>
+      {data.allPicksJson.edges.map(({ node }) => (
+        <tr key={node.id}>
+          <td><img src={node.team_src} /></td>
+          <td className={node.bill}>{node.bill}</td>
+          <td className={node.ryen}>{node.ryen}</td>
+          <td className={node.house}>{node.house}</td>
         </tr>
+      ))}
       </tbody>
     </table>
   </Layout>
-)
+  )
+}
 
-export default IndexPage
+export const query = graphql`
+query {
+  allPicksJson {
+    edges {
+      node {
+        id
+        bill
+        house
+        ryen
+        team_src
+      }
+    }
+  }
+}
+`

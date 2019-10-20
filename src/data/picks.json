@@ -1,0 +1,302 @@
+[
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/ATL.svg",
+    "line": 34.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg",
+    "line": 49.5,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BKN.svg",
+    "line": 45,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg",
+    "line": 24,
+    "bill" : "under",
+    "bill_lock" : true,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": true
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHI.svg",
+    "line": 32.5,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CLE.svg",
+    "line": 24.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/DAL.svg",
+    "line": 40.5,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/DEN.svg",
+    "line": 53,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/DET.svg",
+    "line": 37.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : true,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/GSW.svg",
+    "line": 48.5,
+    "bill" : "under",
+    "bill_lock" : true,
+    "ryen" : "under",
+    "ryen_lock" : true,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/HOU.svg",
+    "line": 54,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/IND.svg",
+    "line": 47.5,
+    "bill" : "under",
+    "bill_lock" : true,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/LAC.svg",
+    "line": 53,
+    "bill" : "over",
+    "bill_lock" : true,
+    "ryen" : "over",
+    "ryen_lock" : true,
+    "house": "over",
+    "house_lock": true
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/LAL.svg",
+    "line": 50,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/MEM.svg",
+    "line": 27,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/MIA.svg",
+    "line": 43,
+    "bill" : "over",
+    "bill_lock" : true,
+    "ryen" : "over",
+    "ryen_lock" : true,
+    "house": "over",
+    "house_lock": true
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/MIL.svg",
+    "line": 57.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/MIN.svg",
+    "line": 35.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": true
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/NOP.svg",
+    "line": 39.5,
+    "bill" : "over",
+    "bill_lock" : true,
+    "ryen" : "over",
+    "ryen_lock" : true,
+    "house": "over",
+    "house_lock": true
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/NYK.svg",
+    "line": 28,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/OKC.svg",
+    "line": 32,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : true,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/ORL.svg",
+    "line": 41.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/PHI.svg",
+    "line": 54.5,
+    "bill" : "over",
+    "bill_lock" : true,
+    "ryen" : "over",
+    "ryen_lock" : true,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/PHX.svg",
+    "line": 29.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/POR.svg",
+    "line": 46.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/SAC.svg",
+    "line": 38,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/SAS.svg",
+    "line": 45.5,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/TOR.svg",
+    "line": 46,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": false
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/UTA.svg",
+    "line": 53.5,
+    "bill" : "over",
+    "bill_lock" : false,
+    "ryen" : "over",
+    "ryen_lock" : false,
+    "house": "over",
+    "house_lock": true
+  },
+  {
+    "team_src": "http://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/WAS.svg",
+    "line": 27,
+    "bill" : "under",
+    "bill_lock" : false,
+    "ryen" : "under",
+    "ryen_lock" : false,
+    "house": "under",
+    "house_lock": false
+  }
+]

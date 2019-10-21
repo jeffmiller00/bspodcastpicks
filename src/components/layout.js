@@ -12,10 +12,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
-import ReactGA from 'react-ga';
-const trackingId = "UA-69056626-1"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

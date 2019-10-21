@@ -11,6 +11,7 @@ table td, table th {
 
 table td img {
   height: 6rem;
+  margin-bottom: 0;
 }
 
 .lock {

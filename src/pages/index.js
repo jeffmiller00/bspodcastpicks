@@ -6,6 +6,10 @@ import { css } from "../styles/nba-picks.css"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import billImage from "../images/Bill-Simmons.jpg"
+import ryenImage from "../images/Ryen-Russillo.png"
+import houseImage from "../images/Joe-House.jpg"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock, faArrowAltCircleUp, faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
 
@@ -17,10 +21,10 @@ export default ({ data }) => {
     <table>
       <thead>
         <tr>
-          <th data-type="image">Team</th>
-          <th data-type="text-short">Bill</th>
-          <th data-type="text-short">Ryen</th>
-          <th data-type="text-short">House</th>
+          <th data-type="image"></th>
+          <th data-type="text-short"><img className='headshots' src={billImage} alt="Bill Simmons" /></th>
+          <th data-type="text-short"><img className='headshots' src={ryenImage} alt="Ryen Russillo" /></th>
+          <th data-type="text-short"><img className='headshots' src={houseImage} alt="Joe House" /></th>
         </tr>
       </thead>
       <tbody>

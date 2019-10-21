@@ -1,19 +1,22 @@
 table td, table th {
   text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 table td img {
   height: 6rem;
 }
 
+.lock {
+  border: solid 2px goldenrod
+}
+
 .over {
-  color: #f5f1ed;
-  background-color: #429e62;
-  font-weight: bold;
+  color: #429e62;
 }
 
 .under {
-  color: #f5f1ed;
-  background-color: #fe4a49;
+  color: #fe4a49;
   font-weight: bold;
 }

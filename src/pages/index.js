@@ -7,7 +7,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLock } from '@fortawesome/free-solid-svg-icons'
+import { faLock, faArrowAltCircleUp, faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
 
 
 export default ({ data }) => {
@@ -27,11 +27,18 @@ export default ({ data }) => {
       {data.allPicksJson.edges.map(({ node }) => (
         <tr key={node.id}>
           <td><img src={node.team_src} /><br />{node.line}</td>
-          <td className={node.bill}>
-            {node.bill}{node.bill_lock && (<React.Fragment><br /><FontAwesomeIcon icon={faLock} /></React.Fragment>)}
+          <td className={node.bill + (node.bill_lock ? ' lock' : '')}>
+            {(node.bill=='over' ? <FontAwesomeIcon icon={faArrowAltCircleUp} size="3x" /> : <FontAwesomeIcon icon={faArrowAltCircleDown} size="3x" />)}<br />
+            {node.bill}{node.bill_lock && (<React.Fragment><br /><FontAwesomeIcon icon={faLock} size="3x" color="goldenrod" /></React.Fragment>)}
           </td>
-          <td className={node.ryen}>{node.ryen}{node.ryen_lock && (<React.Fragment><br /><FontAwesomeIcon icon={faLock} /></React.Fragment>)}</td>
-          <td className={node.house}>{node.house}{node.house_lock && (<React.Fragment><br /><FontAwesomeIcon icon={faLock} /></React.Fragment>)}</td>
+          <td className={node.ryen + (node.ryen_lock ? ' lock' : '')}>
+            {(node.ryen=='over' ? <FontAwesomeIcon icon={faArrowAltCircleUp} size="3x" /> : <FontAwesomeIcon icon={faArrowAltCircleDown} size="3x" />)}<br />
+            {node.ryen}{node.ryen_lock && (<React.Fragment><br /><FontAwesomeIcon icon={faLock} size="3x" color="goldenrod" /></React.Fragment>)}
+          </td>
+          <td className={node.house + (node.house_lock ? ' lock' : '')}>
+            {(node.house=='over' ? <FontAwesomeIcon icon={faArrowAltCircleUp} size="3x" /> : <FontAwesomeIcon icon={faArrowAltCircleDown} size="3x" />)}<br />
+            {node.house}{node.house_lock && (<React.Fragment><br /><FontAwesomeIcon icon={faLock} size="3x" color="goldenrod" /></React.Fragment>)}
+          </td>
         </tr>
       ))}
       </tbody>
